@@ -169,6 +169,11 @@ img {
 .progress.blue .progress-bar {
   border-color: #049dff;
 }
+
+.sec-div li{
+  opacity: 1;
+}
+
 .progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s;
 }
@@ -275,6 +280,10 @@ a.effect-underline:after {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
+}
+
+.simple-div li{
+  opacity: 1;
 }
 
 link.effect-underline:hover:after {
